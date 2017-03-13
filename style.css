@@ -1,0 +1,216 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    /*max-width: 720px;*/
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 13.22vw;
+    background-color: #5fc0cd;
+    text-align: center;
+    display: table;
+    z-index: 9999;
+}
+
+.my-header {
+    /*background-color: #55a8b3;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header button {
+    width: 15vw;
+    height: 8.5vw;
+    font-size: 3vw;
+
+    outline: medium; /* 取消点击按钮后出现的边框 */
+    border: none;
+
+    border-radius: 1vw; /* 所有角都使用圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 1vw; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 1vw; /* Webkit浏览器的私有属性 */
+}
+
+.left-btn {
+    background-color: #55a8b3;
+    color: #ffffff;
+}
+
+.right-btn {
+    background-color: #ffffff;
+    color: #5fc0cd;
+}
+
+header img {
+    position: absolute;
+    top: 27%;
+    right: 2%;
+    width: 5%;
+    height: 42%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 13.88vw;
+    background-color: #f8fafb;
+}
+
+footer div {
+    display: inline-block;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.home-page {
+    font-size: 2vw;
+    color: #5fc0cd;
+    left: 22vw;
+    background: url(images/home_page.png) no-repeat;
+    background-position: top;
+    background-size: 4vw 4vw;
+}
+
+.my-new {
+    left: 44vw;
+}
+
+.my-new img {
+    width: 13.3vw;
+    height: 13.3vw;
+}
+
+.mine {
+    font-size: 2vw;
+    color: #999999;
+    right: 22vw;
+    background: url(images/mine.png) no-repeat;
+    background-position: top;
+    background-size: 4vw 4vw;
+}
+main{
+    position: absolute;
+    top: 13.22vw;
+    width: 100%;
+}
+.choose_btn {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.pare_btn {
+    width: 100%;
+    margin: 0;
+}
+.sub1_row {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* 三个下拉菜单 */
+.my_main_btn {
+    background: url(images/triangle3.png) no-repeat;
+    background-position: 98% 5vw;
+    background-size: 2vw 1vw;
+    /*border: solid #00ff00;*/
+    width: 100%;
+    height: 11vw;
+    border-right: 1px solid #e1e5e7;
+    border-bottom: 1px solid #e1e5e7;
+    background-color: #ffffff;
+    font-size: 5vw;
+    color: #999999;
+
+    border-radius: 0px; /* 所有角都使用圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 0px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 0px; /* Webkit浏览器的私有属性 */
+}
+.mmb1 {
+    padding-left: 0px;
+}
+.my_dm {
+    width: 100%;
+    min-width: 0;
+    font-size: 5vw;
+}
+.my_dm li{
+    text-align: center;
+}
+.mmb3 {
+    padding-right: 0px;
+    border-right: none;
+}
+.my-list-col{
+    /*border: solid;*/
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    height: 23vw;
+}
+.my-list-con{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+.my-list-row{
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+.col-one-top{
+    background: url(images/mini_calendar.png) no-repeat;
+    background-position: 50% 10%;
+    background-size: 5vw 5vw;
+    height: 15.3vw;
+}
+.col-one-down{
+    background: url(images/mini_coordinate.png) no-repeat;
+    background-position: center;
+    background-size: 4vw 5vw;
+    height: 5vw;
+}
+.col-two-top{
+    font-size: 5vw;
+    color: #999999;
+}
+.col-two-center{
+    font-size: 5vw;
+    overflow: hidden;
+    width: 50vw;
+    text-overflow: ellipsis;/* 文字溢出时显示为省略号 */
+    white-space: nowrap;  /*强制不换行*/
+}
+.col-two-down{
+    font-size: 5vw;
+    color: #999999;
+}
+.col-four{
+    font-size: 5vw;
+}
+.col-four img{
+    width: 3vw;
+}
+.price{
+    display: inline;
+    float: right;
+    margin-right: 1vw;
+}
+.price span{
+    margin-right: 3vw;
+    color: #e63b0e;
+}
